@@ -1,0 +1,37 @@
+.CartProduct {
+    margin:  10px;
+    padding: 10px;
+    background-color: #dcdcdc;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    min-height: 140px;
+}
+
+.CartProduct button {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+}
+
+.CartProduct .qty {
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width: 800px){
+    .CartProduct {
+        width: 500px;
+        min-height: 100px;
+    }
+}
+
+@media(max-width: 600px){
+    .CartProduct {
+        width: 100vw;
+        margin: 3px;
+    }
+}

@@ -1,0 +1,12 @@
+.CartPage {
+    padding-top: 70px;
+    background-color: #ecf0f1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CartPage p {
+    font-size: 2rem;
+}
